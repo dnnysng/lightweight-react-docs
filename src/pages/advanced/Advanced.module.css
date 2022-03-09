@@ -33,6 +33,14 @@
   transform: translate(5px);
 }
 
+.code {
+  background-color: #20232a;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+
 @media (max-width: 738px) {
   .wrapper {
     border-radius: 0 0 0 0;
