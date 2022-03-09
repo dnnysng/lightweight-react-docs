@@ -1,0 +1,23 @@
+@import './normalize.css';
+
+ul {
+  margin-left: 2rem;
+}
+
+li {
+  line-height: 1.5;
+}
+
+body {
+  background-color: #20232a;
+  color: #20232a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}

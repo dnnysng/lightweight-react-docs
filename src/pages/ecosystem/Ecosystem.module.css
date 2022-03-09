@@ -1,0 +1,48 @@
+.wrapper {
+  padding: 0 2rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.subList {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.wrapper a {
+  transition: 0.3s all ease-in-out;
+  color: black;
+}
+
+.wrapper a:hover {
+  color: #61dafb;
+  display: block;
+  transform: translate(5px);
+}
+
+.code {
+  background-color: #20232a;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 738px) {
+  .wrapper {
+    border-radius: 0 0 0 0;
+  }
+}
